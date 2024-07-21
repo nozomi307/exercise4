@@ -10,14 +10,12 @@ body {
         "footer footer footer";
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: 1fr 2fr 1fr; 
-    height: 100vh;
-    gap: 2px; 
+    height: 100vh; /* 必要に応じて調整 */
     background-color: #ffffff; 
 }
 
 header, nav, .sidebar.left, .content, .sidebar.right, footer {
     border: 2px solid white; 
-    background-clip: padding-box; 
 }
 
 header {
