@@ -9,7 +9,7 @@ body {
         "left content right"
         "footer footer footer";
     grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 1fr 2fr 1fr; /* 中央を狭め、サイドバーを広げる */
+    grid-template-columns: 1fr 2fr 1fr; 
     height: 100vh;
     gap: 2px; 
     background-color: #ffffff; 
@@ -22,7 +22,7 @@ header, nav, .sidebar.left, .content, .sidebar.right, footer {
 
 header {
     grid-area: header;
-    background-color: #029c02;
+    background-color: #04b804;
     padding: 10px;
     text-align: center;
 }
@@ -36,25 +36,25 @@ nav {
 
 .sidebar.left {
     grid-area: left;
-    background-color: #e3d7a3;
+    background-color: #f5e6a4;
     padding: 10px;
 }
 
 .content {
     grid-area: content;
-    background-color: #e3d7a3;
+    background-color: #f5e6a4;
     padding: 10px;
 }
 
 .sidebar.right {
     grid-area: right;
-    background-color: #e3d7a3;
+    background-color: #f5e6a4;
     padding: 10px;
 }
 
 footer {
     grid-area: footer;
-    background-color: #029c02;
+    background-color: #04b804;
     text-align: center;
     padding: 10px;
 }
