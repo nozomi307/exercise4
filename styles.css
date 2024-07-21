@@ -15,14 +15,14 @@ body {
 
 header {
     grid-area: header;
-    background-color: #f8f8f8;
+    background-color: #00ff00;
     padding: 10px;
     text-align: center;
 }
 
 nav {
     grid-area: nav;
-    background-color: #e8e8e8;
+    background-color: #bce0c4;
     padding: 10px;
     text-align: center;
 }
@@ -47,7 +47,7 @@ nav {
 
 footer {
     grid-area: footer;
-    background-color: #f8f8f8;
+    background-color: #00ff00;
     text-align: center;
     padding: 10px;
 }
