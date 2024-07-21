@@ -11,6 +11,13 @@ body {
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: 1fr 3fr 1fr;
     height: 100vh;
+    gap: 2px; 
+    background-color: #ffffff; 
+}
+
+header, nav, .sidebar.left, .content, .sidebar.right, footer {
+    border: 2px solid white; 
+    background-clip: padding-box; 
 }
 
 header {
@@ -65,3 +72,4 @@ table, th, td {
     border: 1px solid black;
     padding: 5px;
 }
+
