@@ -11,6 +11,7 @@ function submitQuiz() {
     const questions = ['q1', 'q2', 'q3', 'q4', 'q5'];
     
     questions.forEach(question => {
+        // 現在選択されているラジオボタンの値を取得
         const selectedOption = form.querySelector(`input[name="${question}"]:checked`);
         if (selectedOption) {
             score += parseInt(selectedOption.value);
@@ -19,3 +20,4 @@ function submitQuiz() {
 
     alert(`Hello, ${username}! Your score is ${score}`);
 }
+
