@@ -9,7 +9,7 @@ body {
         "left content right"
         "footer footer footer";
     grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr; /* 中央を狭め、サイドバーを広げる */
     height: 100vh;
     gap: 2px; 
     background-color: #ffffff; 
@@ -72,4 +72,5 @@ table, th, td {
     border: 1px solid black;
     padding: 5px;
 }
+
 
