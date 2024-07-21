@@ -49,7 +49,7 @@ nav {
 .sidebar.right {
     grid-area: right;
     background-color: #e3d7a3;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {
