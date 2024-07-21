@@ -22,7 +22,7 @@ header, nav, .sidebar.left, .content, .sidebar.right, footer {
 
 header {
     grid-area: header;
-    background-color: #04b804;
+    background-color: #04cc04;
     padding: 10px;
     text-align: center;
 }
@@ -54,7 +54,7 @@ nav {
 
 footer {
     grid-area: footer;
-    background-color: #04b804;
+    background-color: #04cc04;
     text-align: center;
     padding: 10px;
 }
