@@ -3,10 +3,12 @@ function submitQuiz() {
     const username = form.username.value;
     let score = 0;
 
-    const q1 = form.q1.value;
-    score += parseInt(q1);
-
-    // Repeat for other questions
+    const questions = ['q1', 'q2', 'q3', 'q4', 'q5'];
+    
+    questions.forEach(question => {
+        const answer = form[question].value;
+        score += parseInt(answer);
+    });
 
     alert(`${username}, your final score is ${score}`);
 }
